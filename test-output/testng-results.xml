@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104" started-at="2022-07-06T11:07:40 PDT" finished-at="2022-07-06T11:07:40 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104" started-at="2022-07-06T11:07:40 PDT" finished-at="2022-07-06T11:07:40 PDT">
+      <class name="com.logintest.test_001">
+        <test-method status="FAIL" signature="Startsetup()[pri:0, instance:com.logintest.test_001@eafc191]" name="Startsetup" is-config="true" duration-ms="15" started-at="2022-07-06T11:07:40 PDT" finished-at="2022-07-06T11:07:40 PDT">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[ C:\Users\SHWETA GOUDAR\eclipse-workspace\frame1_demo\configure\configure properties (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException:  C:\Users\SHWETA GOUDAR\eclipse-workspace\frame1_demo\configure\configure properties (The filename, directory name, or volume label syntax is incorrect)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.utility.configuredataprovider.<init>(configuredataprovider.java:16)
+at com.utility.Baseclass.Startsetup(Baseclass.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startsetup -->
+        <test-method status="SKIP" signature="Verifyloginpage()[pri:0, instance:com.logintest.test_001@eafc191]" name="Verifyloginpage" duration-ms="0" started-at="2022-07-06T11:07:40 PDT" finished-at="2022-07-06T11:07:40 PDT">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[ C:\Users\SHWETA GOUDAR\eclipse-workspace\frame1_demo\configure\configure properties (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException:  C:\Users\SHWETA GOUDAR\eclipse-workspace\frame1_demo\configure\configure properties (The filename, directory name, or volume label syntax is incorrect)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.utility.configuredataprovider.<init>(configuredataprovider.java:16)
+at com.utility.Baseclass.Startsetup(Baseclass.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyloginpage -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.logintest.test_001@eafc191]" name="setup" is-config="true" duration-ms="-1657130860808" started-at="2022-07-06T11:07:40 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.logintest.test_001@eafc191]" name="teardown" is-config="true" duration-ms="-1657130860829" started-at="2022-07-06T11:07:40 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.logintest.test_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
